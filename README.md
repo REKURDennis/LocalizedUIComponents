@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/LocalizedUIComponents.svg?style=flat)](http://cocoapods.org/pods/LocalizedUIComponents)
 [![Platform](https://img.shields.io/cocoapods/p/LocalizedUIComponents.svg?style=flat)](http://cocoapods.org/pods/LocalizedUIComponents)
 
+The library includes three UIComponents (LocalizedButton, LocalizedLabel, LocalizedPlaceholderTextField). Use this components instead of the standard UIButton, UILabel and UITextField in Storyboards/Xib files and just use your language keys as title/text/placeholder and they are automatically localized at runtime.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 

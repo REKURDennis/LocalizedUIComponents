@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  LocalizedUIComponents
+
+  Created by Dennis Joswig on 09.11.17.
+  Copyright © 2017 CocoaPods. All rights reserved.
+*/
+"ButtonKey"="Button";
+"LabelKey"="Label";
+"PlaceholderKey"="Placeholder";
+

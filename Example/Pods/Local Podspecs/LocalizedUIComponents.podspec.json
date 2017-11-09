@@ -1,0 +1,22 @@
+{
+  "name": "LocalizedUIComponents",
+  "version": "0.1.0",
+  "summary": "A short description of LocalizedUIComponents.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/REKURDennis/LocalizedUIComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "REKURDennis": "dennisjoswig@gmx.de"
+  },
+  "source": {
+    "git": "https://github.com/REKURDennis/LocalizedUIComponents.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LocalizedUIComponents/Classes/**/*"
+}

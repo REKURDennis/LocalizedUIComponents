@@ -1,0 +1,6 @@
+framework module Pods_LocalizedUIComponents_Example {
+  umbrella header "Pods-LocalizedUIComponents_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

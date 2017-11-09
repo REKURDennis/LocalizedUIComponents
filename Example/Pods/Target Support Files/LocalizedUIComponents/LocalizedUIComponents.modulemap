@@ -1,0 +1,6 @@
+framework module LocalizedUIComponents {
+  umbrella header "LocalizedUIComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

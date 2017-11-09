@@ -1,25 +1,66 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelKey" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhA-n1-KkD" customClass="LocalizedLabel" customModule="LocalizedUIComponents">
+                                <rect key="frame" x="0.0" y="28" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rex-At-sk8" customClass="LocalizedButton" customModule="LocalizedUIComponents">
+                                <rect key="frame" x="0.0" y="93" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="hE7-7U-LQU"/>
+                                </constraints>
+                                <state key="normal" title="ButtonKey"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PlaceholderKey" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yTh-Jy-8Fe" customClass="LocalizedPlaceholderTextField" customModule="LocalizedUIComponents">
+                                <rect key="frame" x="0.0" y="171" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="wD7-dE-pAl"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Rex-At-sk8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="1G8-gE-Foh"/>
+                            <constraint firstItem="yTh-Jy-8Fe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="8f8-39-4S2"/>
+                            <constraint firstAttribute="trailing" secondItem="zhA-n1-KkD" secondAttribute="trailing" id="H3e-WW-q5g"/>
+                            <constraint firstAttribute="trailing" secondItem="yTh-Jy-8Fe" secondAttribute="trailing" id="Ncq-nH-lT4"/>
+                            <constraint firstItem="yTh-Jy-8Fe" firstAttribute="top" secondItem="Rex-At-sk8" secondAttribute="bottom" constant="48" id="OwT-fI-urB"/>
+                            <constraint firstItem="Rex-At-sk8" firstAttribute="top" secondItem="zhA-n1-KkD" secondAttribute="bottom" constant="44" id="PeN-hu-dqh"/>
+                            <constraint firstAttribute="trailing" secondItem="Rex-At-sk8" secondAttribute="trailing" id="VvN-2b-YZV"/>
+                            <constraint firstItem="zhA-n1-KkD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="cYX-0t-UEZ"/>
+                            <constraint firstItem="zhA-n1-KkD" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="fqz-z8-J7k"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="66.400000000000006" y="30.134932533733135"/>
         </scene>
     </scenes>
 </document>

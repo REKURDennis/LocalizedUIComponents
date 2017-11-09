@@ -1,0 +1,22 @@
+PODS:
+  - LocalizedUIComponents (0.1.0)
+  - Nimble (7.0.2)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - LocalizedUIComponents (from `../`)
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+
+EXTERNAL SOURCES:
+  LocalizedUIComponents:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LocalizedUIComponents: 09b99e69b6bd89121757be37786d1c086f500456
+  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 9f73080fde8fb8a7f615911e6d883d09eeba8769
+
+COCOAPODS: 1.1.1
